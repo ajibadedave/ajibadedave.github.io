@@ -30,6 +30,7 @@ body{
     background-color:#0f2417;
 }
 .construction{
+    width: 100%;
     background-color: #2da7cb;
     text-align: center;
 }
