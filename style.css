@@ -35,6 +35,8 @@ body{
 }
 footer{
     background-color: #e0e3f0;
+    position: absolute;
+    padding-bottom: 0px;
 }
 .icons{
     margin: auto;
