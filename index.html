@@ -7,28 +7,79 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="CSS/sidebar.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
 	</head>
 
 	<body><!-- Beginning of the main web-->
 		<header>
-			<img class="logo" src="IMAGES/Logo_write-01.svg" alt="logo">
+			<a href="#">
+				<img class="logo" src="IMAGES/logo.svg" alt="logo">
+			</a>
 			<nav>
 				<ul class="nav-links">
-					<li>Home</li>
+					<li>Resume</li>
 					<li>Projects</li>
-					<li>What is David thinking of...</li>
-					<li>About</li>
+					<li>NER Content</li>
+					<li>Get Lucky</li>
 				</ul>
+
+				<div id="mySidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a href="#">Home</a>
+					<a href="#">Projects</a>
+					<a href="#">Randoms</a>
+					<a href="mailto:dma322@drexel.edu">Contact</a>
+
+					<div class="social-links">
+						<a href="https://github.com/ajibadedave">
+							<i class="fa fa-github fa-1x"></i>
+						</a>
+						<a href="https://www.instagram.com/ajibadedave/">
+							<i class="fa fa-instagram fa-1x"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/davidajibade/">
+							<i class="fa fa-linkedin fa-1x"></i>
+						</a>
+					</div>
+
+				</div>
+				  
 			</nav>
-			<a><button class="contact">Contact</button></a>
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰</button>  
+			</div>
 		</header><!-- End of Header-->
 		<div class="container"> <!--Website stuff goes in here-->
 			<div class="in-development">
-				<span class="dev-text">
+				<span>
 					This site is still under development. <br>
-					You can reach me at <a href="mailto:dma322@drexel.edu">David Ajibade</a>
+					You can reach me <a href="mailto:dma322@drexel.edu">here</a>
 				</span>
 			</div>
 		</div>
+
+		<!-- Script for the website-->
+		<script src="JS/sidebar.js"></script>
 	</body>
+	<footer>
+		<div class="copyright">
+			<span>&copy; 2021</span>
+		</div>
+
+		<div class="social-links">
+			<a href="https://github.com/ajibadedave">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
+			<a href="https://www.instagram.com/ajibadedave/">
+				<i class="fa fa-instagram fa-2x"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/davidajibade/">
+				<i class="fa fa-linkedin fa-2x"></i>
+			</a>
+		</div>
+		<div>
+			
+		</div>
+	</footer>
 </html>

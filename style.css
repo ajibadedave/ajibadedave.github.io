@@ -14,22 +14,48 @@ header{
     justify-content: space-between;
     align-items: center;
     min-height: 6vh;
-    background-color: rgb(175, 212, 214);
+    background-color: #111;
 }
 .nav-links li{
     display: inline-flex;
     padding: 35px;
     font-size: 18px;
+    color: white;
 }
 .contact{
     margin-right: 80px;
 }
 .container{
     display: flex;
+    align-items: center;
     justify-content: center;
-    max-width: 1400px;
-    margin: 40vh auto 0;
+    /* max-width: 1400px; */
+    margin: 35vh auto 0;
+    font-size: 30px;
 }
-.dev-text{
-    font-size: 36px;
+
+/* Footer Elements and shii*/
+/* footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    background-color: #111;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+.copyright{
+    color: white;
+    font-size: 18px;
+}
+.social-links a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
 }
