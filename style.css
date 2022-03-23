@@ -23,6 +23,10 @@ header{
     font-size: 18px;
     color: white;
 }
+li a{
+    text-decoration: none;
+    color: white;
+}
 .contact{
     margin-right: 80px;
 }
